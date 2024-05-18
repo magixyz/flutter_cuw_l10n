@@ -1,4 +1,5 @@
 {
+  "id": "ID",
   "ok": "OK",
   "cancel": "Cancel",
   "unknown": "Unknown",
@@ -7,6 +8,100 @@
   "version": "Version",
   "confirm": "Confirm",
   "email": "Email",
-  "mobile": "Mobile"
+  "mobile": "Mobile",
+  "prompts": "Prompts",
+  "description": "Description",
+  "name": "Name",
+  "device": "Device",
+  "config": "Config",
+  "year": "Year",
+  "week": "Week",
+  "read__book": "Read",
 
+
+  "connect": "연결",
+  "disconnect": "연결 해제",
+  "connected": "연결됨",
+  "disconnected": "연결 해제",
+  "connecting": "연결됨",
+  "disconnecting": "연결 해제",
+
+  "connect_exception": "Connection exception",
+
+  "login": "Login",
+  "login_need": "Login needed",
+  "login_please": "Login please",
+
+  "register": "Register",
+
+  "password": "Password",
+  "reset_password": "Reset Password",
+
+  "verification_code": "Verification Code",
+  "send_verification_code": "Send Verification Code",
+
+  "install": "Install",
+
+  "readin": "Read",
+  "readin_already": "Read already",
+  "readin_not_yet": "Read not yet",
+
+  "upload": "Upload",
+  "submit": "Submit",
+  "alert": "Alert",
+
+  "update": "Update",
+
+  "upgrade": "Upgrade",
+  "upgrade_progress": "Upgrade progress",
+
+
+  "download": "Download",
+  "download_progress": "Download progress",
+  "download_complete": "Download complete!",
+  "download_failed": "Download failed!",
+
+  "check_required_email": "Email required",
+  "check_required_mobile": "Mobile required",
+  "check_required_account": "Account required",
+  "check_required_description": "Description required",
+
+  "msg_login_success": "Login success!",
+  "msg_login_failure": "Login failure!",
+
+  "msg_sync_failed": "Sync failed!",
+
+  "msg_operate_success": "Operate success!",
+  "msg_operate_failure": "Operate failure!",
+
+
+  "msg_submit_success": "Submit success!",
+
+  "select_please": "Select please",
+
+  "add": "Add",
+  "add_success": "Add successfully！",
+  "add_failure": "Add failed！",
+
+  "cpu": "CPU",
+  "manuf": "Manufacturer",
+  "library": "Library",
+
+  "hardware": "Hardware",
+  "hardware_version": "Hardware version",
+  "hardware_platform": "Hardware platform",
+
+  "software": "Software",
+  "software_version": "Software version",
+  "software_platform": "Software platform",
+
+
+  "application_platform": "Application platform",
+  "application_version": "Application version",
+
+  "battery": "Battery",
+  "battery_level": "Battery level",
+  "battery_voltage": "Battery voltage",
+
+  "mileage": "Mileage"
 }

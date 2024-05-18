@@ -22,14 +22,106 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "add": MessageLookupByLibrary.simpleMessage("Add"),
+        "add_failure": MessageLookupByLibrary.simpleMessage("Add failed！"),
+        "add_success":
+            MessageLookupByLibrary.simpleMessage("Add successfully！"),
+        "alert": MessageLookupByLibrary.simpleMessage("Alert"),
+        "application_platform":
+            MessageLookupByLibrary.simpleMessage("Application platform"),
+        "application_version":
+            MessageLookupByLibrary.simpleMessage("Application version"),
+        "battery": MessageLookupByLibrary.simpleMessage("Battery"),
+        "battery_level": MessageLookupByLibrary.simpleMessage("Battery level"),
+        "battery_voltage":
+            MessageLookupByLibrary.simpleMessage("Battery voltage"),
         "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
+        "check_required_account":
+            MessageLookupByLibrary.simpleMessage("Account required"),
+        "check_required_description":
+            MessageLookupByLibrary.simpleMessage("Description required"),
+        "check_required_email":
+            MessageLookupByLibrary.simpleMessage("Email required"),
+        "check_required_mobile":
+            MessageLookupByLibrary.simpleMessage("Mobile required"),
+        "config": MessageLookupByLibrary.simpleMessage("Config"),
         "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
+        "connect": MessageLookupByLibrary.simpleMessage("연결"),
+        "connect_exception":
+            MessageLookupByLibrary.simpleMessage("Connection exception"),
+        "connected": MessageLookupByLibrary.simpleMessage("연결됨"),
+        "connecting": MessageLookupByLibrary.simpleMessage("연결됨"),
+        "cpu": MessageLookupByLibrary.simpleMessage("CPU"),
+        "description": MessageLookupByLibrary.simpleMessage("Description"),
+        "device": MessageLookupByLibrary.simpleMessage("Device"),
+        "disconnect": MessageLookupByLibrary.simpleMessage("연결 해제"),
+        "disconnected": MessageLookupByLibrary.simpleMessage("연결 해제"),
+        "disconnecting": MessageLookupByLibrary.simpleMessage("연결 해제"),
+        "download": MessageLookupByLibrary.simpleMessage("Download"),
+        "download_complete":
+            MessageLookupByLibrary.simpleMessage("Download complete!"),
+        "download_failed":
+            MessageLookupByLibrary.simpleMessage("Download failed!"),
+        "download_progress":
+            MessageLookupByLibrary.simpleMessage("Download progress"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "hardware": MessageLookupByLibrary.simpleMessage("Hardware"),
+        "hardware_platform":
+            MessageLookupByLibrary.simpleMessage("Hardware platform"),
+        "hardware_version":
+            MessageLookupByLibrary.simpleMessage("Hardware version"),
+        "id": MessageLookupByLibrary.simpleMessage("ID"),
+        "install": MessageLookupByLibrary.simpleMessage("Install"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
+        "library": MessageLookupByLibrary.simpleMessage("Library"),
+        "login": MessageLookupByLibrary.simpleMessage("Login"),
+        "login_need": MessageLookupByLibrary.simpleMessage("Login needed"),
+        "login_please": MessageLookupByLibrary.simpleMessage("Login please"),
+        "manuf": MessageLookupByLibrary.simpleMessage("Manufacturer"),
         "map": MessageLookupByLibrary.simpleMessage("Map"),
+        "mileage": MessageLookupByLibrary.simpleMessage("Mileage"),
         "mobile": MessageLookupByLibrary.simpleMessage("Mobile"),
+        "msg_login_failure":
+            MessageLookupByLibrary.simpleMessage("Login failure!"),
+        "msg_login_success":
+            MessageLookupByLibrary.simpleMessage("Login success!"),
+        "msg_operate_failure":
+            MessageLookupByLibrary.simpleMessage("Operate failure!"),
+        "msg_operate_success":
+            MessageLookupByLibrary.simpleMessage("Operate success!"),
+        "msg_submit_success":
+            MessageLookupByLibrary.simpleMessage("Submit success!"),
+        "msg_sync_failed": MessageLookupByLibrary.simpleMessage("Sync failed!"),
+        "name": MessageLookupByLibrary.simpleMessage("Name"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "prompts": MessageLookupByLibrary.simpleMessage("Prompts"),
+        "read__book": MessageLookupByLibrary.simpleMessage("Read"),
+        "readin": MessageLookupByLibrary.simpleMessage("Read"),
+        "readin_already": MessageLookupByLibrary.simpleMessage("Read already"),
+        "readin_not_yet": MessageLookupByLibrary.simpleMessage("Read not yet"),
+        "register": MessageLookupByLibrary.simpleMessage("Register"),
+        "reset_password":
+            MessageLookupByLibrary.simpleMessage("Reset Password"),
+        "select_please": MessageLookupByLibrary.simpleMessage("Select please"),
+        "send_verification_code":
+            MessageLookupByLibrary.simpleMessage("Send Verification Code"),
+        "software": MessageLookupByLibrary.simpleMessage("Software"),
+        "software_platform":
+            MessageLookupByLibrary.simpleMessage("Software platform"),
+        "software_version":
+            MessageLookupByLibrary.simpleMessage("Software version"),
+        "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "unknown": MessageLookupByLibrary.simpleMessage("Unknown"),
-        "version": MessageLookupByLibrary.simpleMessage("Version")
+        "update": MessageLookupByLibrary.simpleMessage("Update"),
+        "upgrade": MessageLookupByLibrary.simpleMessage("Upgrade"),
+        "upgrade_progress":
+            MessageLookupByLibrary.simpleMessage("Upgrade progress"),
+        "upload": MessageLookupByLibrary.simpleMessage("Upload"),
+        "verification_code":
+            MessageLookupByLibrary.simpleMessage("Verification Code"),
+        "version": MessageLookupByLibrary.simpleMessage("Version"),
+        "week": MessageLookupByLibrary.simpleMessage("Week"),
+        "year": MessageLookupByLibrary.simpleMessage("Year")
       };
 }

@@ -1,4 +1,5 @@
 {
+    "id": "ID",
     "ok":"确认",
     "cancel":"取消",
     "unknown": "未知",
@@ -8,6 +9,100 @@
     "version": "版本",
     "confirm": "确认",
     "email": "邮箱",
-    "mobile": "手机"
+    "mobile": "手机",
+    "prompts": "提示",
+    "description": "描述",
+    "name": "名称",
+    "device": "设备",
+    "config": "配置",
+    "year": "年",
+    "week": "周",
+    "read__book": "阅读",
 
+    "connect": "连接",
+    "disconnect": "断开",
+    "connected": "已连接",
+    "disconnected": "已断开",
+    "connecting": "连接中",
+    "disconnecting": "断开中",
+
+    "connect_exception": "连接异常",
+
+    "login": "登录",
+    "login_need": "请先登录",
+    "login_please": "请登录",
+
+    "register": "注册",
+
+    "password": "密码",
+    "reset_password": "重置密码",
+
+    "verification_code": "验证码",
+    "send_verification_code": "发送验证码",
+
+
+    "install": "安装",
+
+
+    "readin": "读取",
+    "readin_already": "已读取",
+    "readin_not_yet": "未读取",
+
+    "upload": "上传",
+    "submit": "提交",
+    "alert": "警告",
+
+    "update": "更新",
+
+    "upgrade": "更新",
+    "upgrade_progress": "更新进度",
+
+    "download": "下载",
+    "download_progress": "下载进度",
+    "download_complete": "下载完成！",
+    "download_failed": "下载失败！",
+
+
+    "check_required_email": "邮箱地址不能为空",
+    "check_required_mobile": "手机不能为空",
+    "check_required_account": "账号不能为空",
+    "check_required_description": "描述不能为空",
+
+    "msg_login_success": "登录成功！",
+    "msg_login_failure": "登录失败！",
+
+    "msg_sync_failed": "同步失败！",
+
+    "msg_operate_success": "操作成功！",
+    "msg_operate_failure": "操作失败！",
+
+    "msg_submit_success": "提交成功！",
+
+    "select_please": "请选择",
+
+    "add": "添加",
+    "add_success": "添加成功！",
+    "add_failure": "添加失败！",
+
+    "cpu": "CPU",
+    "manuf": "生产商",
+    "library": "库",
+
+    "hardware": "硬件",
+    "hardware_version": "硬件版本",
+    "hardware_platform": "硬件平台",
+
+    "software": "软件",
+    "software_version": "软件版本",
+    "software_platform": "软件平台",
+
+
+    "application_platform": "应用平台",
+    "application_version": "应用版本",
+
+    "battery": "电池",
+    "battery_level": "电池电量",
+    "battery_voltage": "电池电压",
+
+    "mileage": "里程"
 }
