@@ -71,6 +71,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "hardware_version":
             MessageLookupByLibrary.simpleMessage("Hardware version"),
         "id": MessageLookupByLibrary.simpleMessage("ID"),
+        "individual_message":
+            MessageLookupByLibrary.simpleMessage("Individual message"),
         "install": MessageLookupByLibrary.simpleMessage("Install"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "library": MessageLookupByLibrary.simpleMessage("Library"),
@@ -79,8 +81,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "login_please": MessageLookupByLibrary.simpleMessage("Login please"),
         "manuf": MessageLookupByLibrary.simpleMessage("Manufacturer"),
         "map": MessageLookupByLibrary.simpleMessage("Map"),
+        "message": MessageLookupByLibrary.simpleMessage("Message"),
         "mileage": MessageLookupByLibrary.simpleMessage("Mileage"),
         "mobile": MessageLookupByLibrary.simpleMessage("Mobile"),
+        "msg_config_failure":
+            MessageLookupByLibrary.simpleMessage("Config failure!"),
+        "msg_config_success":
+            MessageLookupByLibrary.simpleMessage("Config success!"),
         "msg_login_failure":
             MessageLookupByLibrary.simpleMessage("Login failure!"),
         "msg_login_success":
@@ -89,11 +96,17 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Operate failure!"),
         "msg_operate_success":
             MessageLookupByLibrary.simpleMessage("Operate success!"),
+        "msg_submit_failure":
+            MessageLookupByLibrary.simpleMessage("Submit failure!"),
         "msg_submit_success":
             MessageLookupByLibrary.simpleMessage("Submit success!"),
         "msg_sync_failed": MessageLookupByLibrary.simpleMessage("Sync failed!"),
         "name": MessageLookupByLibrary.simpleMessage("Name"),
+        "network_not_available": MessageLookupByLibrary.simpleMessage(
+            "Network not available, check please!"),
+        "notice_message": MessageLookupByLibrary.simpleMessage("Notice"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
+        "operator": MessageLookupByLibrary.simpleMessage("Operator"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "prompts": MessageLookupByLibrary.simpleMessage("Prompts"),
         "read__book": MessageLookupByLibrary.simpleMessage("Read"),
@@ -101,17 +114,20 @@ class MessageLookup extends MessageLookupByLibrary {
         "readin_already": MessageLookupByLibrary.simpleMessage("Read already"),
         "readin_not_yet": MessageLookupByLibrary.simpleMessage("Read not yet"),
         "register": MessageLookupByLibrary.simpleMessage("Register"),
+        "reset": MessageLookupByLibrary.simpleMessage("Reset"),
         "reset_password":
             MessageLookupByLibrary.simpleMessage("Reset Password"),
         "select_please": MessageLookupByLibrary.simpleMessage("Select please"),
         "send_verification_code":
             MessageLookupByLibrary.simpleMessage("Send Verification Code"),
+        "service": MessageLookupByLibrary.simpleMessage("Service"),
         "software": MessageLookupByLibrary.simpleMessage("Software"),
         "software_platform":
             MessageLookupByLibrary.simpleMessage("Software platform"),
         "software_version":
             MessageLookupByLibrary.simpleMessage("Software version"),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
+        "theme": MessageLookupByLibrary.simpleMessage("Theme"),
         "unknown": MessageLookupByLibrary.simpleMessage("Unknown"),
         "update": MessageLookupByLibrary.simpleMessage("Update"),
         "upgrade": MessageLookupByLibrary.simpleMessage("Upgrade"),

@@ -230,6 +230,46 @@ class Cuw {
     );
   }
 
+  /// `Service`
+  String get service {
+    return Intl.message(
+      'Service',
+      name: 'service',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reset`
+  String get reset {
+    return Intl.message(
+      'Reset',
+      name: 'reset',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Operator`
+  String get operator {
+    return Intl.message(
+      'Operator',
+      name: 'operator',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Theme`
+  String get theme {
+    return Intl.message(
+      'Theme',
+      name: 'theme',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Connect`
   String get connect {
     return Intl.message(
@@ -620,6 +660,36 @@ class Cuw {
     );
   }
 
+  /// `Submit failure!`
+  String get msg_submit_failure {
+    return Intl.message(
+      'Submit failure!',
+      name: 'msg_submit_failure',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Config success!`
+  String get msg_config_success {
+    return Intl.message(
+      'Config success!',
+      name: 'msg_config_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Config failure!`
+  String get msg_config_failure {
+    return Intl.message(
+      'Config failure!',
+      name: 'msg_config_failure',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Select please`
   String get select_please {
     return Intl.message(
@@ -805,6 +875,46 @@ class Cuw {
     return Intl.message(
       'Mileage',
       name: 'mileage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Message`
+  String get message {
+    return Intl.message(
+      'Message',
+      name: 'message',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Notice`
+  String get notice_message {
+    return Intl.message(
+      'Notice',
+      name: 'notice_message',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Individual message`
+  String get individual_message {
+    return Intl.message(
+      'Individual message',
+      name: 'individual_message',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Network not available, check please!`
+  String get network_not_available {
+    return Intl.message(
+      'Network not available, check please!',
+      name: 'network_not_available',
       desc: '',
       args: [],
     );

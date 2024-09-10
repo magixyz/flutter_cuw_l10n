@@ -18,6 +18,12 @@
   "week": "Week",
   "read__book": "Read",
 
+  "service": "Service",
+
+  "reset": "Reset",
+
+  "operator": "Operator",
+  "theme": "Theme",
 
   "connect": "연결",
   "disconnect": "연결 해제",
@@ -76,6 +82,11 @@
 
 
   "msg_submit_success": "Submit success!",
+  "msg_submit_failure": "Submit failure!",
+
+
+  "msg_config_success": "Config success!",
+  "msg_config_failure": "Config failure!",
 
   "select_please": "Select please",
 
@@ -103,5 +114,13 @@
   "battery_level": "Battery level",
   "battery_voltage": "Battery voltage",
 
-  "mileage": "Mileage"
+  "mileage": "Mileage",
+
+
+  "message": "Message",
+  "notice_message": "Notice",
+  "individual_message": "Individual message",
+
+
+  "network_not_available": "Network not available, check please!"
 }

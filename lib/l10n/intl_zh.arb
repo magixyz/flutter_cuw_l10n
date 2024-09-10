@@ -19,6 +19,13 @@
     "week": "周",
     "read__book": "阅读",
 
+    "service": "服务",
+
+    "reset": "重置",
+
+    "operator": "运营商",
+    "theme": "风格主题",
+
     "connect": "连接",
     "disconnect": "断开",
     "connected": "已连接",
@@ -77,6 +84,11 @@
     "msg_operate_failure": "操作失败！",
 
     "msg_submit_success": "提交成功！",
+    "msg_submit_failure": "提交失败!",
+
+
+    "msg_config_success": "配置成功！",
+    "msg_config_failure": "配置失败!",
 
     "select_please": "请选择",
 
@@ -104,5 +116,11 @@
     "battery_level": "电池电量",
     "battery_voltage": "电池电压",
 
-    "mileage": "里程"
+    "mileage": "里程",
+
+    "message": "消息",
+    "notice_message": "公告",
+    "individual_message": "个人消息",
+
+    "network_not_available": "网络不可用，请检查网络！"
 }
